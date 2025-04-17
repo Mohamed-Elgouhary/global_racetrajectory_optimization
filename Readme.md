@@ -101,6 +101,25 @@ pip install --no-binary=quadprog --force-reinstall quadprog==0.1.7
 python3 -c "import quadprog; print(quadprog.__file__)"
 ```
 
+```bash
+pip install scikit-image
+```
+
+```bash
+pip install PyYAML
+```
+
+```bash
+pip install pandas
+```
+
+**Here are the steps you can use to convert a .png or .pgm + .yaml of a map into a .csv that can be fed into the TUMFTM functions.**
+
+1. Put your .png or .pgm + .yaml files inside ``maps`` directory
+2. Run this command
+```bash
+python3 map_to_csv.py
+```
 
 ### Solutions for possible installation problems (Windows)
 * `cvxpy`, `cython` or any other package requires a `Visual C++ compiler` -> Download the build tools for Visual Studio
